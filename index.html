@@ -1,0 +1,67 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Factorio Assembler Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+<style>
+.item-selection {
+  display: inline-block;
+  height: 38px;
+  width: 38px;
+  margin: 0 3px;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+  cursor: pointer;
+}
+.item-selection img {
+  padding: 2px;
+}
+.selected {
+  border-width: 2px;
+  border-color: #01549b;
+}
+.selected img {
+  padding: 1px;
+}
+.result-wrapper {
+  margin: 1em 0 0 -1em;
+}
+.factory-block {
+  border: 1px solid grey;
+  border-radius: .25rem;
+  margin: 5px 5px 5px 1em;
+  padding: 0.3rem;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Factorio Assembler Calculator</h1>
+
+  <p>Select how many products you want in a given time and this
+  page will calculate how many
+  <img src="img/Assembling_machine_3.png" alt="level 3 assembling machines" title="level 3 assembling machines">,
+  <img src="img/Chemical_plant.png" alt="chemical plants" title="chemical plants">,
+  <img src="img/Oil_refinery.png" alt="oil refineries" title="oil refineries">, or
+  <img src="img/Electric_furnace.png" alt="electric furnaces" title="electric furnaces">
+  you need for it and then recursively again for the intermediate products.
+  It is expected that you use maximum available amount of
+  productivity modules and no other modifiers. Usually you will want to round
+  up the results.</p>
+
+  <div id="calculator"></div>
+
+  <p style="margin-top: 2em;"><span style="color: #841F27; font-weight: bold;">Warning:</span>
+  This tool is under development. More items will be
+  added soon.
+  Images were taken from <a href="https://wiki.factorio.com/">the factorio wiki</a>.
+  See the source code on <a href="https://github.com/ondrejslamecka/factorio-calc">GitHub</a>.
+  </p>
+</div> <!-- /. container -->
+
+<script src="bundle.js"></script>
+</body>
+</html>

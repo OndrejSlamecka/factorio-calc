@@ -1,0 +1,12 @@
+{
+  "name": "factorio-calc",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch": "pulp --watch browserify --to bundle.js",
+    "test": "pulp test"
+  }
+}
