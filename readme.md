@@ -3,7 +3,7 @@
 This web-based program calculates how many factories you need in
 [Factorio](https://www.factorio.com/) to produce the given number of
 items in the given time. The information and images were taken from [the
-official Factorio Wiki](wiki.factorio.com/).
+official Factorio Wiki](https://wiki.factorio.com/).
 
 
 **[Go to calculator.](https://www.slamecka.cz/factorio-calc)**
